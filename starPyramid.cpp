@@ -8,11 +8,11 @@ int main()
     {
         for (int j = 0; j < length - i - 1; j++)
         {
-            cout << "_";
+            cout << " ";
         }
         for (int j = 0; j < i + 1; j++)
         {
-            cout << "*_";
+            cout << "* ";
         }
         cout << endl;
     }
